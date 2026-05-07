@@ -1,0 +1,18 @@
+# Proyecto: Simulación de Red LAN y Enrutamiento Dinámico en Python
+Desarrollo de una red LAN local orientada a la simulación de protocolos de descubrimiento y 
+enrutamiento dinámico sin necesidad de conexión a internet. El proyecto consistió en la creación 
+de múltiples nodos que funcionaban como routers mediante scripts en Python, capaces de enviar 
+mensajes broadcast para descubrir dispositivos conectados dentro de la red y generar 
+automáticamente tablas de vecinos y conexiones activas.
+
+Una vez identificados los nodos conectados, se implementó un sistema de direccionamiento mediante 
+IPs virtuales y se desarrolló una herramienta para representar gráficamente la topología de la red
+utilizando grafos generados en Python. Posteriormente, se asignaron pesos a las conexiones 
+Ethernet para simular costos de transmisión y se aplicó el algoritmo de Dijkstra's Algorithm con 
+el fin de calcular la ruta óptima entre nodos y construir tablas de encaminamiento dinámicas.
+
+Finalmente, se desarrolló un sistema de envío de mensajes capaz de seleccionar automáticamente la
+ruta con menor costo dentro de la red, simulando el comportamiento de protocolos de enrutamiento 
+utilizados en redes reales. El proyecto permitió aplicar conocimientos en redes de computadoras, 
+protocolos de comunicación, grafos, algoritmos de rutas mínimas, programación en Python y 
+simulación de infraestructura de telecomunicaciones.
